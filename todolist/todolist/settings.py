@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'todos.apps.TodosConfig', 
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -78,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'todo_list',
         'USER': 'postgres',
-        'PASSWORD': '****',
+        'PASSWORD': 'Paswerd7?',
         'HOST': 'localhost',   
         'PORT': '5432', 
     }
