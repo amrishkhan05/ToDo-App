@@ -19,7 +19,7 @@ from django.contrib import admin
 # r- about to write a string 
 # ^:start $:end
 urlpatterns = [
-    url(r'^$', include('todos.urls')),
+    # url(r'^$', include('todos.urls')),
     url(r'^todos/', include('todos.urls')),
     url(r'^admin/', admin.site.urls),
 ]
